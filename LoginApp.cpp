@@ -11,5 +11,7 @@ int main() {
 
     cout << user1.id;
 
+    cout << endl << delPass;
+
     return 0;
 }
