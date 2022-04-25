@@ -13,6 +13,7 @@ struct User {
     string name;
     string email;
     string password;
+    string oldPasswords; // array separated by a delimiter
 
     User(string ID, string Name,string Email,string Password){
         id = ID;
