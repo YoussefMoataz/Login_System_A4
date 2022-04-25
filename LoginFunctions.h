@@ -3,4 +3,6 @@
 
 int sum(int x, int y);
 
+struct User;
+
 #endif

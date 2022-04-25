@@ -4,9 +4,12 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
 
-    cout << sum(5, 6);
+    cout << sum(5, 6) << endl;
+
+    User user1 = User("Youssef", "youssef@fcai.com", "password");
+
+    cout << user1.id;
 
     return 0;
 }
