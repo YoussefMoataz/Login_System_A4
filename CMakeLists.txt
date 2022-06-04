@@ -4,4 +4,4 @@ project(Login_System_A4)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Login_System_A4 LoginApp.cpp)
-add_executable(Login_System_A4_Func LoginApp.cpp)
+add_executable(Login_System_A4_Func LoginFunctions.cpp)
